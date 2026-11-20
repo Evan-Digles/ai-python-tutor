@@ -49,3 +49,20 @@ to `evaluation/results.md`.
 pip install -r requirements-eval.txt
 python -m evaluation.evaluate
 ```
+
+### Results
+
+Across 11 test cases, the tutoring system prompts raised the average
+BERTScore F1 against reference tutoring answers from 0.450 (raw model, no
+instructions) to 0.609. The full table is in
+[evaluation/results.md](evaluation/results.md).
+
+## How it was built
+
+This project was built with Claude Code, as the assignment required the use
+of AI. Claude drafted the code and I reviewed and modified it.
+
+## About this README
+
+The "Results" and "How it was built" sections were added with Claude for
+the portfolio copy of the project. The rest is as submitted for the course.
